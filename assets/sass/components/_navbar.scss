@@ -1,0 +1,47 @@
+.navbar {
+    width: 100%;
+    padding: 30px 100px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+}
+
+.navbar .logo {
+    position: relative;
+    display: flex;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+
+}
+
+.nav-left {
+    flex: 1;
+    margin-left: 3%;
+
+}
+
+.navbar .navbar-list {
+    list-style: none;
+    display: flex;
+
+}
+
+.navbar .navbar-list li {
+    list-style: none;
+    display: flex;
+    margin: 8px 12px;
+
+}
+
+.navbar .navbar-list li a {
+    display: block;
+    color: #fff;
+    transition: .3s;
+
+}
+
+.navbar .navbar-list li a:hover {
+    color: rgb(233, 20, 233);
+}

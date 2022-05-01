@@ -1,0 +1,33 @@
+.sider-media {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 120px;
+    background-color: aliceblue;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50px;
+
+}
+
+.sider-media .media-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+
+}
+
+.sider-media .media-list li {
+    list-style: none;
+    display: flex;
+    margin: 8px;
+
+}
+
+.sider-media .media-list li a {
+    color: #000;
+    font-size: 20px;
+    
+}
