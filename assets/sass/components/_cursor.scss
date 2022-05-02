@@ -14,4 +14,11 @@
     z-index: 9999;
     appearance: none;
     outline: none;
+
+}
+
+@media screen and (max-width: 1170px) {
+    .cursor {
+        display: none;
+    }
 }

@@ -1,8 +1,11 @@
+@import "../utils/settings";
+
 .navbar {
     width: 100%;
     padding: 30px 100px;
     justify-content: space-between;
     display: flex;
+    background: $navy-bg;
     align-items: center;
 
 }
@@ -44,4 +47,11 @@
 
 .navbar .navbar-list li a:hover {
     color: rgb(233, 20, 233);
+
+}
+
+@media screen and (max-width: 1170px) {
+    .navbar .navbar-list {
+        display: none;
+    }
 }

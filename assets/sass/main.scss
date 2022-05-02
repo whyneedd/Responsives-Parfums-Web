@@ -3,13 +3,5 @@
 @import "./components/nav-media";
 @import "./components/content";
 @import "./components/cursor";
-
-.umg {
-    position: absolute;
-    display: block;
-    top: 20%;
-    left: 60%;
-    width: 30%;
-    height: 50vh;
-    
-}
+@import "./components/banner";
+@import "./utils/settings";

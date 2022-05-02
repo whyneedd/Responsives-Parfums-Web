@@ -1,0 +1,17 @@
+.umg {
+    position: absolute;
+    display: block;
+    top: 20%;
+    left: 60%;
+    width: 25%;
+    height: 50vh;
+    border-radius: 50%;
+    
+}
+
+@media screen and (max-width: 1170px) {
+    .umg {
+        display: none;
+            
+    }
+}
