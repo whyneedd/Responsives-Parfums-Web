@@ -18,10 +18,16 @@ body, html {
     right: 0;
     box-sizing: border-box;
     font-family: cera-round-pro, "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-    background-image: url("../imgs/1.jpg");
-    background-color: #444;
+    // background-image: url("../imgs/1.jpg");
+    
+    background: linear-gradient(rgb(0, 18, 18), 60%, rgb(233, 20, 233));
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
 
+}
+
+::selection {
+    color: rgb(233, 20, 233);
+    
 }

@@ -1,0 +1,17 @@
+.cursor {
+    position: absolute;
+    display: block;
+    width: 38px;
+    height: 38px;
+    top: 50%;
+    left: 50%;
+    border-radius: 50px;
+    pointer-events: none;
+    border: 2px solid #fff;
+    transition: .1s;
+    transform: translate(-50%, -50%);
+
+    z-index: 9999;
+    appearance: none;
+    outline: none;
+}
